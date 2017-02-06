@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>              
+        <div class="LogInScreen" style="display: none" >
+        <div class="form">                                              
+                <form class="LoginForm">
+                    <h1>Login</h1>
+                    <input id="UserName" type="text" placeholder="UserName"><br>
+                    <input id="Password" type="password" placeholder="Password"><br>
+                    <input id="loginButton" type="submit" value="Login">
+                    <p id="toogle-createAccount" class="message">Dont have a account? <a>Create one!</a></p>
+                </form>
+                
+                <form class="RegisterForm">
+                    <h1>Fill in the information</h1>
+                    <input id="CreateUserName" type="text" placeholder="UserName"><br>
+                    <input id="CreatePassword" type="password" placeholder="Password"><br>
+                    <input id="CreateEmail" type="text" placeholder="Email"><br>
+                    <input id="createAccount" type="submit" value="Create">
+                    <p id="toogle-loginReturn" class="message">Allready have a account? <a>Login!</a></p>
+                </form>
+        </div>
+        </div>
+        <div class="LoggedInScreen" style="display: none;">
+                <h1>You are now logged in! Welcome to the main page!!</h1><br>
+                <h3>The list of registererd users</h3>
+                <ul id="userList"></ul>
+
+                <a id="logout" href="#">Log out?</a>
+        </div>
+    </body>
+</html>

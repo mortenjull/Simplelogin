@@ -1,0 +1,47 @@
+
+.form{
+    background-color: white;
+    margin: auto; 
+    height: 300px;
+    width: 300px;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+body {
+    font-family: arial;
+    background-color: cornflowerblue;
+    text-align: center;     
+}
+
+input {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+}
+
+#loginButton{
+    background-color: cornflowerblue;
+    width: 161px;
+    padding: 2px;
+}
+
+.form .RegisterForm{
+    display: none;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
